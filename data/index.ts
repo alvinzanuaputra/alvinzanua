@@ -1,10 +1,12 @@
 export const navItems = [
+  { name: "Home", link: "/"},
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
+  
 export const gridItems = [
   {
     id: 1,
@@ -72,35 +74,83 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Anime V1 - NEXT JS 13",
+    des: "AnimeList V1 is a web application project designed for anime fans. With an attractive interface and rich functionality, this application allows users to explore various anime titles, view detailed information about each title, and keep a list of their favorite anime. Built with Next.js technology and enhanced with React JS, this project promises a smooth and responsive user experience. With Tailwind CSS integration for a clean and modern design, as well as utilizing the JIKAN API and Prisma ORM to provide accurate and up-to-date anime data, AnimeList V1 provides a satisfying experience for anime fans from all walks of life.",
+    img: "/assets/projects/animev1.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://alvinznutra-animev1.vercel.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Anime V2 - NEXT JS 14",
+    des: "AnimeList V2 is a continued development of AnimeList V1, with a focus on improving the user experience and providing new, more advanced features. Built using Next.js version 14 and TypeScript, the project promises greater stability and better code management. With a refined interface and expanded functionality, AnimeList V2 allows users to discover, explore and save their favorite anime more easily and conveniently. With Tailwind CSS integration for a responsive and modern design, as well as the use of Next PWA technology to enable better offline use, AnimeList V2 provides a great experience for anime fans from all walks of life.",
+    img: "/assets/projects/animev2.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://alvinznutra-animev2.vercel.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Netflix Clone",
+    des: "Netflix Clone is a project that aims to replicate the popular Netflix user interface, for a similar experience for users. The project is built using modern web technologies such as HTML for dynamic component structure, CSS-BOOTSTRAP for responsive design and layout, and JAVA SCRIPT for route management and performance optimization. With features such as content browsing, search, and video playback, Netflix Clone provides users with a similar viewing experience to the original platform.",
+    img: "/assets/projects/netflix.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://alvinzanuaputra.github.io/alvinznutra-NontonMovie/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Space Portfolio - NEXT JS 13",
+    des: "Space Portfolio is a project featuring a personal portfolio with a space theme. This project uses Next.js 13 and Framer Motion technology to create an attractive and dynamic interface. Built with a responsive and modern design, Space Portfolio provides users with an immersive experience in exploring the works and projects displayed.",
+    img: "/assets/projects/spaceport.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://alvin-spaceport.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Game 3D Spiderman",
+    des: "Spiderman 3D Game is a project I developed to bring users into the experience of playing Spiderman themed video games in 3D format. I use software like Libre Office 3D Draw and Unity 3D to create truly immersive and interactive gaming environments. With various interesting features and engaging gameplay, Spiderman 3D Game invites users to explore the world of Spiderman in a completely new and thrilling way. I hope this project can provide an unforgettable gaming experience for users and enrich the world of entertainment with the excitement it offers.",
+    img: "/assets/projects/spiderman.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/assets/projects/game-one.mp4",
+  },
+  {
+    id: 6,
+    title: "Linktree UI",
+    des: "Linktree UI is a project that creates a user interface for organizing and sharing social media links and other content more efficiently. This project combines HTML, CSS, and JavaScript to create an attractive and responsive interface. By using technologies such as CSS Bootstrap for a clean layout and Animate CSS to provide an interactive touch, Linktree UI gives users a more enjoyable experience in introducing themselves and their work to others.",
+    img: "/assets/projects/linktreeui.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://alvin-profilesite.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Paymnet Get Away Mid Trans",
+    des: "Payment Get Away Mid Trans` is a project that allows users to carry out payment transactions safely and comfortably through MidTrans integration. Using technologies like React JS and Tailwind CSS, the project offers an intuitive and responsive user interface. MidTrans and WebHooks integration enables efficient and reliable payment transactions. With complete features and ease of use, `Payment Get Away Mid Trans` is the right solution for your online payment needs.",
+    img: "/assets/projects/payment.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://alvinznutra-shop.vercel.app",
+  },
+  {
+    id: 8,
+    title: "Spotify Clone",
+    des: "Spotify Clone` is a project that brings a Spotify-like experience to users using the latest technology. Combining Type Script, Tailwind CSS, and JavaScript, this project ensures a responsive and attractive user interface. Integrations with Supabase, JIKAN API, Prisma ORM, App Router, Postgree, Next PWA, Stripe, and Web Hooks provide the functionality needed to create a complete and reliable music streaming application. With `Spotify Clone`, users can enjoy their favorite music easily and comfortably.",
+    img: "/assets/projects/spotify.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://alvinznutra-spotifyclone.vercel.app",
+  },
+  {
+    id: 9,
+    title: "Internet of Things - Python",
+    des: "IoT-Hand Gesture AI` is a project that uses IoT technology and artificial intelligence to detect hand gestures. Using Arduino Uno R3 and Python, this project allows users to interact with the device intuitively with just hand movements. With this development, the potential for interactive applications in areas such as electronic device control, gaming, and user interface navigation becomes possible.",
+    img: "/assets/projects/iot-one.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/assets/projects/iot-one.mp4",
+  },
+  {
+    id: 10,
+    title: "Twitch Clone",
+    des: "Twitch Clone is a project that brings a similar experience to the popular streaming platform, Twitch. Developed using Next.js and TypeScript, this project allows users to explore various streaming content interactively. With features like Next Auth, Github Auth, and Google Auth, users can easily log in and access content securely. With a responsive interface and the latest technology, `Twitch Clone` delivers a fun and engaging streaming experience.",
+    img: "/assets/projects/twitch.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://twitch-nextjs-tailwind.vercel.app",
   },
 ];
 
@@ -208,10 +258,14 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
   },
   {
     id: 3,
     img: "/link.svg",
+  },
+  {
+    id: 4,
+    img: "/wha.svg",
   },
 ];
